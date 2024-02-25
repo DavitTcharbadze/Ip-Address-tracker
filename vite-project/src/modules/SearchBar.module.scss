@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-image: url('../assets/images/pattern-bg-desktop.png');
+    background-size: cover;
+    background-position: center;
+  
+  
+.input-container {
+    margin-right: 20px;
+}
+  
+.search-input {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 45px;
+    font-size: 26px;
+}
+  
+.search-button {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 74px;
+    font-size: 25px;
+    margin-left: -2px;
+    cursor: pointer;
+}
+}
